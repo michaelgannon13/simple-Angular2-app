@@ -19,11 +19,11 @@ export class AutoGrowDirective {
   }
 
   onFocus(){
-    this.renderer.setElementStyle(this.el, 'width', '200');
+    this.renderer.setElementStyle(this.el.nativeElement, 'width', '200');
   }
 
   onBlur(){
-    this.renderer.setElementStyle(this.el, 'width', '120');
+    this.renderer.setElementStyle(this.el.nativeElement, 'width', '120');
   }
 
 }
