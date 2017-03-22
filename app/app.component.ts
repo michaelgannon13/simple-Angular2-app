@@ -7,6 +7,7 @@ import {AuthorsComponent} from './author.component';
 
 //calling the component which is an object 
 @Component({
+    //my-app becomes a my-app tag in the DOM
     selector: 'my-app',
     template: `<h1>Hello Angular</h1>
                <courses></courses>

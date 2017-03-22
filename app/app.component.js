@@ -30,6 +30,7 @@ System.register(['angular2/core', './courses.component', './author.component'], 
                 }
                 AppComponent = __decorate([
                     core_1.Component({
+                        //my-app becomes a my-app tag in the DOM
                         selector: 'my-app',
                         template: "<h1>Hello Angular</h1>\n               <courses></courses>\n               <authors></authors>",
                         //adding a directive to extend DOM functionality
